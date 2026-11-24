@@ -10,9 +10,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(
         135deg,
-        #eaf6ff,
-        #d7edff,
-        #f8fcff
+        #bcecff,
+        #e6faff,
+        #fff5d9
     );
     min-height: 100vh;
     display: flex;
@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 
-/* BACKGROUND DECORATION */
+/* SUMMER DECORATION */
 .decoration {
     position: fixed;
     border-radius: 50%;
@@ -31,21 +31,21 @@ body {
 }
 
 .circle-one {
-    width: 250px;
-    height: 250px;
-    background: #b9ddfa;
-    top: -80px;
+    width: 260px;
+    height: 260px;
+    background: #ffd66b;
+    top: -100px;
     left: -80px;
-    opacity: 0.6;
+    opacity: 0.65;
 }
 
 .circle-two {
     width: 300px;
     height: 300px;
-    background: #c5e8ff;
+    background: #72d4ed;
     bottom: -120px;
     right: -100px;
-    opacity: 0.7;
+    opacity: 0.65;
 }
 
 /* MAIN CONTAINER */
@@ -56,25 +56,25 @@ body {
 
 /* PROFILE CARD */
 .profile-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.94);
     padding: 45px 35px;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 15px 45px rgba(80, 145, 190, 0.15);
-    border: 1px solid #ffffff;
+    box-shadow: 0 15px 45px rgba(57, 147, 174, 0.15);
+    border: 2px solid #ffffff;
     position: relative;
     backdrop-filter: blur(10px);
 }
 
 /* DECORATION */
 .flower {
-    font-size: 35px;
-    color: #79b8e9;
+    font-size: 38px;
+    color: #ffbd59;
     margin-bottom: 12px;
 }
 
 .welcome {
-    color: #83b9e5;
+    color: #e8a83f;
     font-size: 10px;
     letter-spacing: 3px;
     font-weight: 600;
@@ -84,17 +84,17 @@ body {
 /* HEADING */
 h1 {
     font-size: 27px;
-    color: #345b7d;
+    color: #28627b;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 h1 span {
-    color: #78b6e5;
+    color: #35a9c9;
 }
 
 .description {
-    color: #8499aa;
+    color: #7899a7;
     font-size: 12px;
     line-height: 1.9;
     margin-bottom: 25px;
@@ -102,21 +102,21 @@ h1 span {
 
 .divider {
     width: 60px;
-    height: 3px;
-    background: #a8d5f5;
+    height: 4px;
+    background: #ffc85e;
     border-radius: 10px;
     margin: 0 auto 25px;
 }
 
 /* PORTFOLIO TITLE */
 h2 {
-    color: #456b8b;
+    color: #28627b;
     font-size: 21px;
     margin-bottom: 5px;
 }
 
 .subtitle {
-    color: #9aafc0;
+    color: #9bb4bd;
     font-size: 11px;
     margin-bottom: 25px;
 }
@@ -134,25 +134,25 @@ h2 {
     text-align: left;
     gap: 13px;
     text-decoration: none;
-    background: #f1f8ff;
-    border: 1px solid #d9edfc;
+    background: #effaff;
+    border: 1px solid #ccecf5;
     border-radius: 17px;
     padding: 16px;
-    color: #456b8b;
+    color: #28627b;
     transition: all 0.3s ease;
 }
 
 .portfolio-button:hover {
-    background: #dcefff;
-    border-color: #9dcdf0;
+    background: #fff4d9;
+    border-color: #ffd477;
     transform: translateY(-4px);
-    box-shadow: 0 8px 18px rgba(100, 165, 215, 0.15);
+    box-shadow: 0 8px 18px rgba(255, 190, 82, 0.18);
 }
 
 .button-icon {
     width: 43px;
     height: 43px;
-    background: white;
+    background: #ffffff;
     border-radius: 13px;
     display: flex;
     justify-content: center;
@@ -174,30 +174,30 @@ h2 {
 
 .button-text small {
     font-size: 9px;
-    color: #9aafc0;
+    color: #91adb9;
     margin-top: 3px;
 }
 
 .arrow {
     font-size: 19px;
-    color: #79b8e9;
+    color: #f0b64c;
 }
 
 /* FOOTER */
 .footer {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 1px solid #e7f1f8;
+    border-top: 1px solid #e5f2f5;
 }
 
 .footer p {
-    color: #668baa;
+    color: #398ba5;
     font-size: 11px;
     font-weight: 600;
 }
 
 .footer span {
-    color: #a1b8ca;
+    color: #b1bfc0;
     font-size: 10px;
 }
 
